@@ -6,3 +6,9 @@ jobs:
     uses: ./.github/workflows/main.yml
     with:
       mode: '["build"]'
+      alphas: '["qwerty"]'
+      nav: '["vi"]'
+      clipboard: '["win"]'
+      layers: '["default"]'
+      mapping: '["default"]'
+      kmonad_os: '["win"]'
